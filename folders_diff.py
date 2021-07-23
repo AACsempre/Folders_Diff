@@ -3,7 +3,6 @@ import os
 import pandas as pd
 import numpy as np
 
-
 def f_dif(f1,f2):
     """Find differences between two folders
     f1, f2:
@@ -50,6 +49,7 @@ def f_dif(f1,f2):
     #print(dif4)
 
     return(dif3,dif4)
+
 
 #Define Folder Paths
 f_1 = "C:/Users/XXXXXX/FolderA/" #Folder 1
