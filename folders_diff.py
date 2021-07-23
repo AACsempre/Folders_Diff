@@ -7,7 +7,7 @@ import numpy as np
 def f_dif(f1,f2):
     """Find differences between two folders
     f1, f2:
-      - folder names
+      - folder paths
     Returns a tuple of 2 elements:
       - a list with differences between parent folders;
       - a dictionary with differences inside each subfolder.
